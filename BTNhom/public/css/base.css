@@ -1,0 +1,172 @@
+html {
+    box-sizing: border-box;
+    position: relative;
+    min-height: 100%;
+}
+
+body *{
+    color: crimson;
+}
+
+/* đăng nhập */
+
+.form-container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(243, 229, 227, 0.05);
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 80px;
+}
+
+.form-container form{
+    text-align: center;
+    width: 600px;
+    background: rgb(216, 156, 156);
+    padding: 20px;
+}
+
+.form-container form h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.form-container form .box{
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 20px;
+    border: 2px solid #000;
+    margin: 10px 0;
+}
+
+.form-container form .form-btn{
+    display: block;
+    margin-top: 10px;
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 35px;
+    font-size: 20px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.form-container form .form-btn:hover{
+    background: crimson;
+}
+
+.form-container form p{
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+.form-container form a{
+    color: crimson;
+    text-decoration: none;
+}
+
+.message{
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    z-index: 101;
+    box-shadow: 5px 10px;
+    color: black;
+}
+
+.product-container{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.main-index{
+    margin-bottom: 160px;
+}
+
+.dashboard-panel-6{
+    padding: 3px;
+    margin-top: 6px;
+}
+
+.overlay {
+  position: relative;
+  width: 100%;
+}
+
+.img-overlay {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  border-radius: 3px;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 8px;
+}
+
+.overlay:hover .img-overlay {
+  opacity: 0.9;
+  transform: scale(1.025);
+}
+
+.overlay:hover .middle {
+  opacity: 1;
+}
+
+#background{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhY0hRLibE0NXGkNZWYzH_IV3yfffttzTWPA&usqp=CAU);
+    background-color: #cccccc;
+    background-position: center;
+    z-index: -100;
+}
+
+.frm{
+    width: 99%;
+    margin: 0 auto;
+    border: 2px solid rgb(209, 88, 124);
+    border-radius: 3px;
+}
+
+.hero-image {
+    height: 90vh;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhY0hRLibE0NXGkNZWYzH_IV3yfffttzTWPA&usqp=CAU);
+    background-position: center;
+    background-repeat: repeat;
+    position: relative;
+    border-bottom: 2px solid rgb(209, 161, 161);
+}
+  
+.hero-text {
+    text-align: center;
+    /* font-family: Brush Script MT; */
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    color: crimson;
+    text-shadow: 0 0 3px #edc1c1;
+    margin-top: 50px;
+}
+
+#price{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    font-size: 17px;
+}

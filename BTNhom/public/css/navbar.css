@@ -1,0 +1,17 @@
+#nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: rgb(233, 39, 155);
+}
+
+#nav a{
+    color: rgb(112, 87, 23);
+    font-size: 17px !important;
+}
+
+#nav img{
+    width: 60px;
+    height: 60px;
+}
